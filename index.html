@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Stats</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <div class="header-details">
+          <p>My balance</p>
+          <h1>$921.48</h1>
+        </div>
+        <img src="./images/logo.svg" alt="" />
+      </section>
+
+      <section class="content">
+        <h3>Spending-Last 7 days</h3>
+        <div class="chart-container">
+          <div class="bar">
+            <div></div>
+            <p>mon</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>tue</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>wed</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>thurs</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>fri</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>sat</p>
+          </div>
+          <div class="bar">
+            <div></div>
+            <p>sun</p>
+          </div>
+        </div>
+        
+        <hr />
+        <div class="total">
+          <p class="total-color--light">Total this month</p>
+
+          <section>
+            <p id="total-amount">$478.33</p>
+
+            <div>
+              <p>+2.4%</p>
+              <p class="total-color--light">from last month</p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
